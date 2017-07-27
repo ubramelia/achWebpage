@@ -21,8 +21,13 @@
 .linkStyle{
 	font-family:Verdana;
 	font-size:90%
-	margin-top: 50px;
+	margin-top: 25px;
 	margin-bottom:50px;
-	margin-left: 75px;
+	margin-left: 375px;
 	margin-right: 525px;
 }
+.imgscene {
+	width: 650px;
+	height: 300px;
+	border: 1px;
+	}
