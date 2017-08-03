@@ -1,7 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
-
 <head>
   <title>Bootstrap Example</title>
   <meta charset="utf-8">
@@ -10,92 +8,186 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+  </style>
 </head>
-
-
-
-<body style=background-color:#e6e6e6;>
-	<div class="container-fluid">
-	<h1 style="color:#b30000; text-align:center; font-size:300%;"> My Time at Debbie's Angels Productions </h1>
-</body>
-
 <body>
 
-
-<div class="container">
-  <h2>In Costume</h2>  
-  <div id="myCarousel" class="carousel slide" data-ride="carousel">
-    <!-- Indicators -->
-    <ol class="carousel-indicators">
-      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-      <li data-target="#myCarousel" data-slide-to="1"></li>
-      <li data-target="#myCarousel" data-slide-to="2"></li>
-    </ol>
-
-    <!-- Wrapper for slides -->
-    <div class="carousel-inner">
-      <div class="item active">
-        <img src="pic1.jpg" alt="Los Angeles" style="width:100%;">
-      </div>
-
-      <div class="item">
-        <img src="pic2.jpg" alt="Chicago" style="width:100%;">
-      </div>
-    
-      <div class="item">
-        <img src="pic3.jpg" alt="New york" style="width:100%;">
-      </div>
-	  
-	  <div class="item">
-        <img src="pic4.jpg" alt="New yk" style="width:100%;">
-      </div>
-	  
-	  <div class="item">
-        <img src="pic5.jpg" alt="New york" style="width:100%;">
-      </div>
-	  
-	  <div class="item">
-        <img src="pic6.jpg" alt="New york" style="width:100%;">
-      </div>
-	  
-	  <div class="item">
-        <img src="pic7.jpg" alt="New york" style="width:100%;">
-      </div>
-	  
-	  <div class="item">
-        <img src="smiley.jpg" alt="New york" style="width:100%;">
-      </div>
-	  
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Portfolio</a>
     </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Gallery</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
 
-    <!-- Left and right controls -->
-    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-      <span class="glyphicon glyphicon-chevron-left"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#myCarousel" data-slide="next">
-      <span class="glyphicon glyphicon-chevron-right"></span>
-      <span class="sr-only">Next</span>
-    </a>
+<div class="jumbotron">
+	<p style="text-align:center;"> 
+	<img src= "blah1.jpg" alt="ME" width="250" height="300">
+	<img src= "blah2.jpg" alt="ME" width="250" height="300"> 
+	<img src= "blah3.jpg" alt="ME" width="250" height="300"> 
+	</p>
+  
+
+  
+  <div class="container text-center">
+    <h1 class="retroshadow">Amelia's Portfolio</h1>      
+    <p> I'm Amelia Crystal Hernandez. This is my unprofessional portfolio to take you through 
+	my lame accomplishments as an amateur makeup artist, a bad actor, and mildly attractive 
+	(yet extremely narcissistic) programmer in training.  This site will serve as a practice 
+	portfolio for me as I develop my skills until  I make my professional one.	</p>
   </div>
 </div>
 
-
 </body>
 
 <body>
-	<p>Resize the browser window to see the effect.</p>
-	<div class="row">
-		<div class="col-md-4" style="background-color:lavender;">.col-md-4</div>
-		<div class="col-md-4" style="background-color:lavenderblush;">.col-md-4</div>
-		<div class="col-md-4" style="background-color:lavender;">.col-md-4</div>
-	</div>
-	</div>
+
+<div class="row" style="background-color:#4d4d4d">
+  <div class="col-md-1"></div>
+  <div class="col-md-10">  
+  
+  <h2 style="color:black"> 
+  <hr style="border:1px solid #000000">
+	<b> Read on for: </b> </h2>
+	<h2 style="color:black"> <i>
+	<li> Nancy Drew and the Mystery of the Bad Acting </li>
+	<br> <li> Once a Standardized Test Told me I was Smart and I've Been Annoying Ever Since </li>
+	<br> <li> My Time Making People's Faces look like Other Faces </li>
+	<br> <li> I Need Lots of Money to Fuel my Narcassistic Thoughts and Here's How I'm Gonna Get It </li> 
+	<br> <li> And More! </li> </i>
+  <hr style="border:1px solid #000000"> </h2>
+  </div> 
+  <div class="col-md-1">
+  
+  
+  
+  </div>
+</div>
+  
 </body>
+  
+ <body>
+ 
+<div class="row">
+   <div class="col-sm-1"> </div>
+   
+   <div class="col-sm-8">
+		<h1></h1>
+   
+   
+   </div>
+   
+   <div class="col-sm-3"> </div>
+</div>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </body>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <body>
+  
+  <p>Here is a quote from WWF's website:</p>
+<blockquote cite="http://www.worldwildlife.org/who/index.html">
+For 50 years, WWF has been protecting the future of nature.
+The world's leading conservation organization,
+WWF works in 100 countries and is supported by
+1.2 million members in the United States and
+close to 5 million globally.
+</blockquote>
 
+  
+  <div class="row">
+    <div class="col-sm-3">
+      <p>Some text..</p>
+      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-3"> 
+      <p>Some text..</p>
+      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-3"> 
+      <p>Some text..</p>
+      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-3">
+      <p>Some text..</p>
+      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+  </div>
+</div><br>
 
+<div class="container-fluid bg-3 text-center">    
+  <div class="row">
+    <div class="col-sm-3">
+      <p>Some text..</p>
+      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-3"> 
+      <p>Some text..</p>
+      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-3"> 
+      <p>Some text..</p>
+      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-3">
+      <p>Some text..</p>
+      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+  </div>
+</div><br><br>
 
+<footer class="container-fluid text-center">
+  <p>Footer Text</p>
+</footer>
 
-
-
+</body>
 </html>
