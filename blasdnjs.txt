@@ -1,115 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <title>Bootstrap Example</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="./style.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <style>
-    /* Remove the navbar's default margin-bottom and rounded borders */ 
-    .navbar {
-      margin-bottom: 0;
-      border-radius: 0;
-    }
-    
-    /* Add a gray background color and some padding to the footer */
-    footer {
-      background-color: #f2f2f2;
-      padding: 25px;
-    }
-  </style>
-</head>
-<body>
-
-<nav class="navbar navbar-inverse">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
-      </button>
-      <a class="navbar-brand" href="#">Amelia's Portfolio</a>
-    </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Home</a></li>
-        <li><a href="#">My Time at DAP</a></li>
-        <li><a href="#">My Early School Life</a></li>
-        <li><a href="#">My Makeup Artistry</a></li>
-		<li><a href="#">My Recent School Life</a></li>
-		<li><a href="#">My Future in Programming</a></li>
-		<li><a href="#">Pictures</a></li>
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
-
-<div class="jumbotron">
-	<p style="text-align:center;"> 
-	<img src= "blah1.jpg" alt="ME" width="250" height="300">
-	<img src= "blah2.jpg" alt="ME" width="250" height="300"> 
-	<img src= "blah3.jpg" alt="ME" width="250" height="300"> 
-	</p>
-  
-
-  
-  <div class="container text-center">
-    <h1 class="retroshadow">Amelia's Portfolio</h1>      
-    <p> I'm Amelia Crystal Hernandez. This is my unprofessional portfolio to take you through 
-	my lame accomplishments as an amateur makeup artist, a bad actor, and mildly attractive 
-	(yet extremely narcissistic) programmer in training.  This site will serve as a practice 
-	portfolio for me as I develop my skills until  I make my professional one.	</p>
-  </div>
-</div>
-
-</body>
-
-<body>
-
-<div class="row" style="background-color:#666699">
-  <div class="col-md-1"></div>
-  <div class="col-md-10">  
-  
-  <h2 style="color:black"> 
-  <hr style="border:1px solid #000000">
-	<b> Read on for: </b> </h2>
-	<h2 style="color:black"> <i>
-	<li> Nancy Drew and the Mystery of the Bad Acting </li>
-	<br> <li> Once a Standardized Test Told me I was Smart and I've Been Annoying Ever Since </li>
-	<br> <li> My Time Making People's Faces look like Other Faces </li>
-	<br> <li> Once a Standardized Test Told me I was Smart and I've Been Annoying Ever Since (THE SEQUEL) </li>
-	<br> <li> I Need Lots of Money to Fuel my Narcassistic Thoughts and Here's How I'm Gonna Get It </li> 
-	<br> <li> And More! </li> </i>
-  <hr style="border:1px solid #000000"> </h2>
-  </div> 
-  <div class="col-md-1">
-  </div>
-</div>
-  
-</body>
-  
-  
-  
-  
-  
-  
- <body>
- 
- 
- 
- 
-<div class="row">
-   <div class="col-sm-1"></div>
-   
-   <div class="col-sm-8">
-		<br> <h1 class="otherHeader"> <br> <b> Nancy Drew and the Mystery of the Bad Acting </b> </h1>
+<br> <h1 class="otherHeader"> <br> <b> Nancy Drew and the Mystery of the Bad Acting </b> </h1>
 		<p class="normalText">
 		Every good mystery starts with introducing the characters and setting the scene.  So close
 		your eyes; Imagine a chubby little girl who watches too much Glee and dresses like Ashley Tisdale
@@ -130,43 +19,15 @@
 		with a few older kids and together we also did an adult (or mostly adult) production of Romeo and 
 		Juliet in which I played Romeo's mother and the chick who gave him the poison to kill himself with 
 		(respectivley; To be clear his mother did not give him the poison, that would be super fucked up and 
-		not very motherly). It was even set in a dark carnival theme so I got to dress up as a gypsy.  I also 
-		did a play called 'A Time to Kill'.		But 
+		not very motherly). It was even set in a dark carnival theme so I got to dress up as a gypsy.  But 
 		that was when the story turned dark... Just kidding, it didn't, and this story isn't really even a 
 		mystery, actually so I totally misled you but a girl's gotta do what a girl's gotta do to make people
 		listen to (or in this case, read) her life story, especially one this boring.  The tale's not over 
 		though so read on to hear about how I think I'm way smarter than I actually am.
 		</p>
-		
-   </div>
    
-   <div class="col-sm-3"> 
    
-		<figure>
-			<img src="minime.jpg" alt="Me. Yeah, seriously." width="350" height="400" style="margin-top:100px;">
-			<figcaption class="captionText"> Me. Yeah, seriously. I <em>ACTUALLY</em> looked like that.</figcaption>
-		</figure>
-   
-   </div>
-</div>
-
-</body>
-
-
-
-
-
-
-
-
-
-<body>
- 
- 
-  <div class="row">
-    <div class="col-sm-1"> </div>
-    <div class="col-sm-8">
-<br> <h1 class="otherHeader"> <br> <b> Once a Standardized Test Told me I was Smart and I've Been Annoying Ever Since </b> </h1>
+		<br> <h1 class="otherHeader"> <br> <b> Once a Standardized Test Told me I was Smart and I've Been Annoying Ever Since </b> </h1>
 		<p class="normalText"> 
 		You got a glimpse of who I was as a 6th grader in the last section; A "chubby little girl who watches
 		too much Glee and dresses like Ashley Tisdalecirca 2000," in the words of myself.  So how did I ever 
@@ -186,7 +47,7 @@
 		despised them for giving them a responsibility to study and the anxiety of a single test telling them 
 		whether or not they should be allowed to pass.  I, however, LOVED them. I didn't need to study, I never 
 		even learned how to and I was already told I was smart so I had no worry, only excitement.  When I got my 
-		test results, they reaffirmed my suspicions that I was a Geniusâ„¢.  I scored higher than almost everyone 
+		test results, they reaffirmed my suspicions that I was a Genius™.  I scored higher than almost everyone 
 		in the school and was immediatley thrown into the higher level classes  all the way through elementary 
 		school.  In fact, I was the first student in the school to be certified as an AIG (Academically and 
 		Intellectually Gifted) student which means, in fifth grade, I was taken out of class an hour and a half 
@@ -202,42 +63,10 @@
 		self-esteem grew 18 sizes too big, you're gonna <em> LOVE </em> learning how it all toppled down and I 
 		realized just how insignificant and average I am in the sequel.  Keep reading!
 		</p>
-	</div>
-    <div class="col-sm-3">
-	<p style="text-align:center;">
-		<figure>
-			<img src="raj1.jpg" alt="Me in romeo and juliet" width="350" height="400" style="margin-top:75px;">
-			<figcaption class="captionText"> Me in Romeo and Juliet</figcaption>
-		</figure>
 		
-		<figure>
-			<img src="suit.jpg" alt="Me in a blazer" width="350" height="400" style="margin-top:75px;">
-			<figcaption class="captionText"> Actual photo of me being 'Annoying Ever Since'</figcaption>
-		</figure>
-	</p>
-	</div>
-  </div>
-  
-  </body>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  <body>
-  
-  
-  
-    <div class="row">
-    <div class="col-sm-1"> </div>
-    <div class="col-sm-8">
-
-	<br> <h1 class="otherHeader"> <br> <b> My Time Making People's Faces look like Other Faces </b> </h1>
+		
+		
+		<br> <h1 class="otherHeader"> <br> <b> My Time Making People's Faces look like Other Faces </b> </h1>
 		<p class="normalText"> 
 		If you were waiting to here how my self-esteem dropped like thee sickest of all beats, you'll have to wait
 		a little longer because this is the story of how I became the almost decent makeup artist I am to this day.
@@ -257,40 +86,12 @@
 		show, Annie. I did the makeup for a bunch of kids and other teens for 5 shows.  Now I mostly do my own makeup
 		for going out and such but hopefully, later this year, I will be doing their makeup again for Aladdin Jr..
 		</p>
-
-	</div>
-    <div class="col-sm-3"> 
-
-		<figure>
-			<img src="myglow.jpg" alt="Me applying highlighter" width="350" height="400" style="margin-top:100px;">
-			<figcaption class="captionText"> Me pretending to apply highlighter after the makeup was obviously already done</figcaption>
-		</figure>
-
-	</div>
-  </div>
-  
-  </body>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  <body>
-  
-  
-    <div class="row">
-    <div class="col-sm-1"> </div>
-    <div class="col-sm-8">
-
-<br> <h1 class="otherHeader"> <br> <b> Once a Standardized Test Told me I was Smart and I've Been Annoying Ever Since (THE SEQUEL)</b> </h1>
+		
+		
+		
+		
+		
+		<br> <h1 class="otherHeader"> <br> <b> Once a Standardized Test Told me I was Smart and I've Been Annoying Ever Since (THE SEQUEL)</b> </h1>
 		<p class="normalText"> 
 		Now the moment we've all been waiting for, my downfall. That's a bit dramatic but, hey, I'm an actor. So 
 		remember how all my teachers told me I was destined for greatness?  Turns out, those aren't just empty 
@@ -317,41 +118,7 @@
 		</p>
 		
 		
-
-	</div>
-    <div class="col-sm-3">
-
-<figure>
-			<img src="goingto.jpg" alt="Me going to accept award" width="350" height="400" style="margin-top:100px;">
-			<figcaption class="captionText"> Me on my way to accept an award at a scholarship event this year</figcaption>
-		</figure>
-
-	</div>
-  </div>
-  
-  
-  </body>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  <body>
-  
-  
-  
-    <div class="row">
-    <div class="col-sm-1"> </div>
-    <div class="col-sm-8"> 
-	
-	<br> <h1 class="otherHeader"> <br> <b> I Need Lots of Money to Fuel my Narcassistic Thoughts and Here's How I'm Gonna Get It </b> </h1>
+		<br> <h1 class="otherHeader"> <br> <b> I Need Lots of Money to Fuel my Narcassistic Thoughts and Here's How I'm Gonna Get It </b> </h1>
 		<p class="normalText"> 
 		If you've been following along, I went from being an overconfident dilusionalist with an inflated sense of 
 		self-importance to being self-aware and quite possibly in a mid-life crisis which, if i'm lucky, means I'm 
@@ -371,62 +138,5 @@
 		jobs/internships at IBM (since they both have worked/work there).  So, boiled down, that's why I'm making this 
 		website.  It's a practice website for me to build my skills until I have something to be proud of.  When I'm done
 		with this, I'll make a proffessional portfolio that I can put on my resume. Hopefully, it won't be as dramatic 
-		and it will look a lot better.  Until then, thanks for reading! 		
+		and it will look a lot better.  Until then, thanks for reading!
 		</p>
-	
-	</div>
-    <div class="col-sm-3"> 
-	<p>
-	<figure>
-			<img src="newme.jpg" alt="a pic of some weird creature" width="370" height="420" style="margin-top:100px;>
-			<figcaption style="font-family:courier new;" class="captionText"> Actual rare photo of me without makeup (not fake, it's real)</figcaption>
-		</figure>
-	</p> <br> <br>
-	
-	</div><br><br>
-  </div><br><br>
- 
- 
- 
- </body>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  <body>
-  
-   
-  <div class="row" style="background-color:#666699">
-    <div class="col-sm-3">
-      <p style="text-align:center;">Me Probably Being Told My Makeup is Shit</p>
-      <img src="gettingdone.jpg" class="img-responsive" style="width:100%" alt="Image">
-    </div>
-    <div class="col-sm-3"> 
-      <p style="text-align:center;">Symone and I (The Makeup Crew for Annie)</p>
-      <img src="makeupcrew.jpg" class="img-responsive" style="width:100%" alt="Image">
-    </div>
-    <div class="col-sm-3"> 
-      <p style="text-align:center;">My Friend After I did his Makeup</p>
-      <img src="dylan.jpg" class="img-responsive" style="width:100%" alt="Image">
-    </div>
-    <div class="col-sm-3">
-      <p style="text-align:center;">Recent Makeup I Did</p>
-      <img src="recentmakeup.jpg" class="img-responsive" style="width:100%" alt="Image">
-    </div>
-  </div>
-</div><br><br>
-
-<footer class="container-fluid text-center" style="background-color:#666699">
-  <p>This is where you would usually give credit to whoever made the website I think,
-  but I made it so I give credit to no one, my credit, you can't have it, go fuck yourselves</p>
-</footer>
-
-</body>
-</html>

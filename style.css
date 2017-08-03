@@ -50,12 +50,24 @@ h2.deepshadow {
 
 .otherHeader {
 	color:black; 
+	background-color:#666699;
 	font-size:260%; 
 	font-family:Courier New;
+	border-style: outset;
+	padding-bottom:35px
 }
 
 .normalText {
 	color:black;
 	font-size:130%;
 	font-family:Helvetica;
+}
+
+
+
+.captionText {
+	color:black;
+	font-size:120%;
+	font-family:Courier New;
+	text-align:center;
 }
