@@ -1,30 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Bootstrap Example</title>
+  <title>Unproffesional Portfolio</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="./style.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <style>
-    /* Remove the navbar's default margin-bottom and rounded borders */ 
-    .navbar {
-      margin-bottom: 0;
-      border-radius: 0;
-    }
-    
-    /* Add a gray background color and some padding to the footer */
-    footer {
-      background-color: #f2f2f2;
-      padding: 25px;
-    }
-  </style>
+  
 </head>
-<body>
+<body id="mypage" data-spy="scroll" data-target=".navbar" data-offset="60">
 
-<nav class="navbar navbar-inverse">
+<nav class="navbar navbar-header navbar-fixed-top">
   <div class="container-fluid">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -32,24 +20,24 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="#">Amelia's Portfolio</a>
+      <a class="navbar-brand" href="#mypage" style="color:White;">Amelia's Portfolio</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Home</a></li>
-        <li><a href="#">My Time at DAP</a></li>
-        <li><a href="#">My Early School Life</a></li>
-        <li><a href="#">My Makeup Artistry</a></li>
-		<li><a href="#">My Recent School Life</a></li>
-		<li><a href="#">My Future in Programming</a></li>
-		<li><a href="#">Pictures</a></li>
-      </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+        <li class="active"><a href="#" style="color:White;">Home</a></li>
+        <li><a href="#about" style="color:White;">DAP</a></li>
+        <li><a href="#school" style="color:White;">Early School Life</a></li>
+        <li><a href="#makeup" style="color:White;">Makeup Artistry</a></li>
+		<li><a href="#schooltwo" style="color:White;">Recent School Life</a></li>
+		<li><a href="#future" style="color:White;">Programming</a></li>
+		<li><a href="#contact" style="color:White;">Contact Me</a></li>
+		<li><a href="#pics" style="color:White;">Pics</a></li>
       </ul>
     </div>
   </div>
 </nav>
+
+
 
 <div class="jumbotron">
 	<p style="text-align:center;"> 
@@ -69,11 +57,11 @@
   </div>
 </div>
 
-</body>
+
 
 <body>
 
-<div class="row" style="background-color:#666699">
+<div class="row" style="background-color:#686868;">
   <div class="col-md-1"></div>
   <div class="col-md-10">  
   
@@ -91,7 +79,7 @@
   </div> 
   <div class="col-md-1">
   </div>
-</div>
+</div><br><br>
   
 </body>
   
@@ -100,15 +88,15 @@
   
   
   
- <body>
+ <body >
  
  
  
  
-<div class="row">
+<div  id="about" class="row">
    <div class="col-sm-1"></div>
    
-   <div class="col-sm-8">
+   <div class="col-sm-8" style="background-color: #f2f2f2; border-style: outset;">
 		<br> <h1 class="otherHeader"> <br> <b> Nancy Drew and the Mystery of the Bad Acting </b> </h1>
 		<p class="normalText">
 		Every good mystery starts with introducing the characters and setting the scene.  So close
@@ -140,15 +128,15 @@
 		
    </div>
    
-   <div class="col-sm-3"> 
+   <div class="col-sm-3" style="margin-top:100px;"> 
    
-		<figure>
-			<img src="minime.jpg" alt="Me. Yeah, seriously." width="350" height="400" style="margin-top:100px;">
+		<figure class="imageBorder">
+			<img src="minime.jpg" alt="Me. Yeah, seriously." width="350" height="400">
 			<figcaption class="captionText"> Me. Yeah, seriously. I <em>ACTUALLY</em> looked like that.</figcaption>
 		</figure>
    
    </div>
-</div>
+</div><br><br>
 
 </body>
 
@@ -163,9 +151,9 @@
 <body>
  
  
-  <div class="row">
+  <div  id="school" class="row">
     <div class="col-sm-1"> </div>
-    <div class="col-sm-8">
+    <div class="col-sm-8" style="background-color: #f2f2f2; border-style: outset;">
 <br> <h1 class="otherHeader"> <br> <b> Once a Standardized Test Told me I was Smart and I've Been Annoying Ever Since </b> </h1>
 		<p class="normalText"> 
 		You got a glimpse of who I was as a 6th grader in the last section; A "chubby little girl who watches
@@ -205,18 +193,18 @@
 	</div>
     <div class="col-sm-3">
 	<p style="text-align:center;">
-		<figure>
-			<img src="raj1.jpg" alt="Me in romeo and juliet" width="350" height="400" style="margin-top:75px;">
+		<figure class="imageBorder">
+			<img src="raj1.jpg" alt="Me in romeo and juliet" width="350" height="400">
 			<figcaption class="captionText"> Me in Romeo and Juliet</figcaption>
 		</figure>
 		
-		<figure>
-			<img src="suit.jpg" alt="Me in a blazer" width="350" height="400" style="margin-top:75px;">
+		<figure class="imageBorder">
+			<img src="suit.jpg" alt="Me in a blazer" width="350" height="400" style="margin-top:10px;">
 			<figcaption class="captionText"> Actual photo of me being 'Annoying Ever Since'</figcaption>
 		</figure>
 	</p>
 	</div>
-  </div>
+  </div><
   
   </body>
   
@@ -233,11 +221,11 @@
   
   
   
-    <div class="row">
+    <div  id="makeup" class="row">
     <div class="col-sm-1"> </div>
-    <div class="col-sm-8">
+    <div class="col-sm-8" style="background-color: #f2f2f2; border-style: outset;">
 
-	<br> <h1 class="otherHeader"> <br> <b> My Time Making People's Faces look like Other Faces </b> </h1>
+	 <h1 class="otherHeader" style="padding-top:3px;"> <br> <b> My Time Making People's Faces look like Other Faces </b> </h1>
 		<p class="normalText"> 
 		If you were waiting to here how my self-esteem dropped like thee sickest of all beats, you'll have to wait
 		a little longer because this is the story of how I became the almost decent makeup artist I am to this day.
@@ -259,15 +247,15 @@
 		</p>
 
 	</div>
-    <div class="col-sm-3"> 
+    <div class="col-sm-3" style="margin-top:100px;"> 
 
-		<figure>
-			<img src="myglow.jpg" alt="Me applying highlighter" width="350" height="400" style="margin-top:100px;">
+		<figure class="imageBorder">
+			<img src="myglow.jpg" alt="Me applying highlighter" width="350" height="400">
 			<figcaption class="captionText"> Me pretending to apply highlighter after the makeup was obviously already done</figcaption>
 		</figure>
 
 	</div>
-  </div>
+  </div><br><br>
   
   </body>
   
@@ -286,9 +274,9 @@
   <body>
   
   
-    <div class="row">
+    <div  id="schooltwo" class="row">
     <div class="col-sm-1"> </div>
-    <div class="col-sm-8">
+    <div class="col-sm-8" style="background-color: #f2f2f2; border-style: outset;">
 
 <br> <h1 class="otherHeader"> <br> <b> Once a Standardized Test Told me I was Smart and I've Been Annoying Ever Since (THE SEQUEL)</b> </h1>
 		<p class="normalText"> 
@@ -319,15 +307,15 @@
 		
 
 	</div>
-    <div class="col-sm-3">
+    <div class="col-sm-3" style="margin-top:100px;">
 
-<figure>
-			<img src="goingto.jpg" alt="Me going to accept award" width="350" height="400" style="margin-top:100px;">
+		<figure class="imageBorder">
+			<img src="goingto.jpg" alt="Me going to accept award" width="350" height="400">
 			<figcaption class="captionText"> Me on my way to accept an award at a scholarship event this year</figcaption>
 		</figure>
 
 	</div>
-  </div>
+  </div><br><br>
   
   
   </body>
@@ -347,9 +335,9 @@
   
   
   
-    <div class="row">
+    <div id="future" class="row">
     <div class="col-sm-1"> </div>
-    <div class="col-sm-8"> 
+    <div class="col-sm-8" style="background-color: #f2f2f2; border-style: outset;"> 
 	
 	<br> <h1 class="otherHeader"> <br> <b> I Need Lots of Money to Fuel my Narcassistic Thoughts and Here's How I'm Gonna Get It </b> </h1>
 		<p class="normalText"> 
@@ -375,13 +363,50 @@
 		</p>
 	
 	</div>
-    <div class="col-sm-3"> 
-	<p>
-	<figure>
-			<img src="newme.jpg" alt="a pic of some weird creature" width="370" height="420" style="margin-top:100px;>
-			<figcaption style="font-family:courier new;" class="captionText"> Actual rare photo of me without makeup (not fake, it's real)</figcaption>
+    <div class="col-sm-3" style="margin-top:100px;"> 
+	
+		<figure  class="imageBorder">
+			<img src="newme.jpg" alt="a pic of some weird creature" width="350" height="400">
+			<figcaption class="captionText"> Actual rare photo of me without makeup (not fake, it's real)</figcaption>
 		</figure>
-	</p> <br> <br>
+		
+	
+	</div><br><br>
+  </div><br><br>
+ 
+ 
+ 
+ </body>
+  
+  
+  
+  
+   <body>
+  
+  
+  
+    <div id="contact" class="row">
+    <div class="col-sm-1"> </div>
+    <div class="col-sm-8" style="background-color: #f2f2f2; border-style: outset;"> 
+	
+	<br> <h1 class="otherHeader"> <br> <b> Contact Me if You're Looking for a Depressing Time :) </b> </h1>
+		<p class="normalText"> 
+  
+  Email: Amelia.Hernandez.Official@gmail.com <br>
+  Phone: (910)358-6830 <br>
+  Instagram:<a href="https://www.instagram.com/ubramelia/"> instagram.com/ubramelia </a> <br>
+  Twitter:<a href="https://twitter.com/ubramelia"> twitter.com/ubramelia </a> <br>
+  Carrier Pigeon: Tie red ribbon around it's neck and send to my window
+		</p>
+	
+	</div>
+    <div class="col-sm-3" style="margin-top:100px;"> 
+	
+		<figure>
+			<img src="carrier2.jpg" alt="carrier pigeon" width="320" height="210">
+			<figcaption class="captionText"> A Good Boy <br>Support The Troops</figcaption>
+		</figure>
+		
 	
 	</div><br><br>
   </div><br><br>
@@ -395,15 +420,10 @@
   
   
   
-  
-  
-  
-  
-  
-  <body>
+	<body>
   
    
-  <div class="row" style="background-color:#666699">
+  <div  id="pics" class="row" style="padding-top:15px; background-color:#686868;">
     <div class="col-sm-3">
       <p style="text-align:center;">Me Probably Being Told My Makeup is Shit</p>
       <img src="gettingdone.jpg" class="img-responsive" style="width:100%" alt="Image">
@@ -423,10 +443,11 @@
   </div>
 </div><br><br>
 
-<footer class="container-fluid text-center" style="background-color:#666699">
+<footer class="container-fluid text-center" style="padding-top:25px; background-color:#22c3c3">
   <p>This is where you would usually give credit to whoever made the website I think,
   but I made it so I give credit to no one, my credit, you can't have it, go fuck yourselves</p>
 </footer>
 
+	</body>
 </body>
 </html>
